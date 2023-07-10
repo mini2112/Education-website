@@ -1,0 +1,71 @@
+.contact__container {
+  background: #2c3162;
+  padding: 4ren;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 4rem;
+  height: 30rem;
+  margin: 7rem auto;
+  border-radius: 1rem;
+}
+
+.contact__details img {
+  width: 20px;
+  height: 20px;
+}
+/* 
+.contactDetails {
+  display: flex;
+} */
+
+.contact__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.contact__details ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* .userName {
+  width: auto;
+  height: 20px;
+} */
+
+/* =================Form=============== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-right: 4rem;
+}
+
+.form__name {
+  display: flex;
+  gap: 1.2rem;
+  margin: 1rem;
+}
+
+.contact__form input[type="text"] {
+  width: 50%;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  background-color: #1f2641;
+  color: #ffff;
+}
+
+.contact__form .btn {
+  width: max-content;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+#Email {
+  margin: 0 1rem;
+}
